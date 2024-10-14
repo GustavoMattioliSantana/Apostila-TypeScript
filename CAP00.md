@@ -54,8 +54,8 @@ JavaScript continua a evoluir com novas funcionalidades e recursos sendo adicion
 
 Aqui estão algumas perguntas que podem ajudar a aprofundar a compreensão sobre JavaScript:
 
-1. **Qual é a função do JavaScript em uma aplicação web?**
-2. **Como o JavaScript interage com HTML e CSS para criar páginas dinâmicas?**
-3. **Quais são as principais diferenças entre JavaScript e outras linguagens de programação?**
-4. **O que são frameworks e bibliotecas JavaScript, e por que são úteis?**
-5. **Como o JavaScript pode ser utilizado no desenvolvimento do lado do servidor?**
+1. **Qual é a função do JavaScript em uma aplicação web?** Para adicionar interatividade e dinamismo nos navegadores
+2. **Como o JavaScript interage com HTML e CSS para criar páginas dinâmicas?** Ele adiciona a parte inerativa da pagina web, com o Html estrturando a pagina, e o CSS a aparencia
+3. **Quais são as principais diferenças entre JavaScript e outras linguagens de programação?** Ele pode ser executado em navegadores e servidores com node.js
+4. **O que são frameworks e bibliotecas JavaScript, e por que são úteis?** Elas adicionam funções para o Javascript
+5. **Como o JavaScript pode ser utilizado no desenvolvimento do lado do servidor?** Ele permite a construção de APIs e serviços web
