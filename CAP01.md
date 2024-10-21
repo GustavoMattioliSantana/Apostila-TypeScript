@@ -105,13 +105,22 @@ Hello, World!
 
 Aqui estão algumas perguntas que podem ajudar a aprofundar a compreensão sobre **TypeScript** e **configuração de ambiente**:
 
-1. **O que é TypeScript e quais são suas principais vantagens em relação ao JavaScript?**
-2. **Explique o que é a tipagem estática no TypeScript e como ela melhora a qualidade do código.**
-3. **Quais os passos necessários para configurar um ambiente de desenvolvimento TypeScript?**
-4. **O que é o Node.js e qual é a sua importância na configuração do TypeScript?**
-5. **Qual o comando utilizado para instalar o TypeScript globalmente e qual sua função?**
-6. **Explique o que faz o compilador `tsc` e como ele converte arquivos TypeScript em JavaScript.**
-7. **Para que serve o arquivo `tsconfig.json` em um projeto TypeScript e quais são suas principais configurações?**
-8. **Qual é a função da propriedade `"strict"` no arquivo `tsconfig.json`?**
-9. **Como você configuraria um projeto TypeScript para compilar os arquivos em uma pasta específica?**
-10. **Quais problemas o TypeScript pode ajudar a detectar durante a fase de desenvolvimento que o JavaScript não detectaria?**
+1. **O que é TypeScript e quais são suas principais vantagens em relação ao JavaScript?**  O typescript é uma linguagem que adiciona tipagem estatica ao javascript, e oferece vantagems como tipagem Estática,autocompletar aprimorado, compatibilidade com JavaScript
+
+2. **Explique o que é a tipagem estática no TypeScript e como ela melhora a qualidade do código.** Erros de tipos são detectados antes da execução, o que facilita a manipulação do código 
+
+3. **Quais os passos necessários para configurar um ambiente de desenvolvimento TypeScript?** instalar o node.js, e depois dar o comando "npm install -g typescript" para instalar o typescript globalmente 
+
+4. **O que é o Node.js e qual é a sua importância na configuração do TypeScript?** É o ambiente de execução para JavaScript que fornece o npm (Node Package Manager), utilizado para gerenciar pacotes, incluindo o TypeScript.
+
+5. **Qual o comando utilizado para instalar o TypeScript globalmente e qual sua função?** npm install -g typescript, ele permite o uso do comando "tsc" para compilar os arquivos 
+
+6. **Explique o que faz o compilador `tsc` e como ele converte arquivos TypeScript em JavaScript.** Ele converte arquivos .ts (TypeScript) em .js (JavaScript), que podem ser executados em qualquer ambiente que suporte JavaScript.
+
+7. **Para que serve o arquivo `tsconfig.json` em um projeto TypeScript e quais são suas principais configurações?** Ele define as configurações de compilação do TypeScript, como o alvo da versão de JavaScript e o diretório de saída dos arquivos compilados.
+
+8. **Qual é a função da propriedade `"strict"` no arquivo `tsconfig.json`?** Ativa verificações estritas de tipos. Exemplo: "strict": true.
+
+9. **Como você configuraria um projeto TypeScript para compilar os arquivos em uma pasta específica?** "outDir": Define a pasta onde os arquivos compilados serão salvos. 
+
+10. **Quais problemas o TypeScript pode ajudar a detectar durante a fase de desenvolvimento que o JavaScript não detectaria?** Erros de tipos.
